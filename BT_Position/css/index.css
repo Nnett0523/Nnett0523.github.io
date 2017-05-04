@@ -1,0 +1,29 @@
+.main-menu {
+	/*border: 1px solid red;*/
+	padding: 10px 45px;
+	margin: auto;
+	/*float: left;*/
+	text-align: left;
+	margin-bottom: 6px;
+
+}
+
+.main-menu a{
+	padding: 15px;
+	text-decoration: none;
+	font-size: 30px;
+	color: red;
+	border: 1px solid blue;
+	display: block;
+	max-width: 25%;
+}
+
+.main-content {
+	max-width: 100%;
+}
+
+.main-content img{
+	width: 250px;
+	height: 250px;
+}
+

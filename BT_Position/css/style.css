@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+#wrap {
+	max-width: 1200px;
+	margin: auto;
+}
+
+#anhbia img{
+	max-width: 100%;
+	margin: auto;
+
+}
+
+.box{
+	padding: 28px;
+	/*margin: 1px;*/
+	float: left;
+	width: 25%;
+	/*border: 1px solid blue;*/
+	border-bottom: -15px;
+	border-top-width: 5px;
+}
+
+#back-to-top img{
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	/*position: absolute;*/
+	bottom: 0;
+	left: 0;
+}
