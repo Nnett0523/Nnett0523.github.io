@@ -1,0 +1,53 @@
+/* chứa các file chung của project */
+*{
+	box-sizing: border-box;
+}
+
+#logodaidien{
+	max-width: 15%;
+	margin: auto;
+
+}
+
+#wrap{
+	max-width: 1000px;
+	margin: auto;
+}
+
+body{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu a{
+	font-size: 30px;
+	color: red;
+	text-decoration: none;
+}
+
+.main-menu a:link{
+	color: red;
+}
+
+.main-menu a:visited{
+	color: grey;
+}
+
+.main-menu a:hover{
+	color: blue;
+}
+.main-menu a:active{
+	color: yellow;
+}
+
+
+
+img{
+	max-width: 100%;
+	height: 250px;
+}
+
+.main-menu{
+	margin: auto;
+}
