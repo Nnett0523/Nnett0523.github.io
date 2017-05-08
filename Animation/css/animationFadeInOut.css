@@ -1,0 +1,33 @@
+@keyframes fade-in {
+	100% {
+		position: relative;
+		margin-left: 0%;
+		width: 100%;
+		opacity: 0;
+	}	
+
+	74% {
+		position: relative;
+		margin-left: 74%;
+		width: 100%;
+		opacity: 1;
+	}
+
+	/*from {
+		margin-left: 50%;
+		width: 300%;
+		opacity: 1;
+	}*/
+
+	0% {
+		position: relative;
+		margin-left: 100%;
+		width: 100%;
+		opacity: 0;
+	}
+
+}
+
+.text-animation {
+	animation: fade-in 5s ease-out infinite;
+}

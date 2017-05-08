@@ -1,7 +1,7 @@
 .main-menu {
 	/*border: 1px solid red;*/
 	padding: 10px 45px;
-	margin: auto;
+	margin-left: auto;
 	/*float: left;*/
 	text-align: left;
 	margin-bottom: 6px;
@@ -16,6 +16,9 @@
 	border: 1px solid blue;
 	display: block;
 	max-width: 25%;
+	/*position: absolute;
+	width: 0;
+	height: 0;*/
 }
 
 .main-content {
