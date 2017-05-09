@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+@keyframes body {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes body {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes body {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes body {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+body {
+	background-color:#333;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), 
+	url('http://www.wearewebstars.dk/codepen/img//s2.png'), 
+	url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	position: absolute;
+	-webkit-animation: body 10s linear infinite;
+	-moz-animation: body 10s linear infinite;
+	-ms-animation: body 10s linear infinite;
+	animation: body 10s linear infinite;
+}
+
+@keyframes h1 {
+	0% {color: red;}
+	25% {color: white;}
+	50% {color: brown;}
+	75% {color: purple}
+	100% {color: yellow;}
+}
+
+h1 {
+	margin: 25px 5px;
+	font-size: 3em;
+	line-height: 1.5em;
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: blue;
+	text-align: center;
+	animation: h1 3s ease-out infinite;
+}
+
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 174px;
+	margin-bottom: 174px;
+	margin-left: 150px;
+	margin-right: 100px;
+}
+
+.col {
+	width: 85%;
+	/*padding: 15px;*/
+	height: 75%;
+	margin: auto;
+	/*background: cadetblue;*/
+}
+
+@keyframes span {
+	0% {color: red;}
+	50% {color: blue}
+	100% {color: black;}
+}
+
+span {
+    color: white;
+    font-size: 200%;
+    font-family: arial;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin: auto;
+
+    animation: span 2s ease-in-out infinite;
+}
+
+@keyframes kiten {
+	from {
+		width: 100%;
+		margin-left: 50%
+		opacity: 1;
+	}
+
+	to {
+		width: 100%;
+		margin-left: 85%;
+		opacity: 0;
+	}
+}
+
+.kiten{
+	animation: kiten 3s linear infinite;
+}
+
+.thumb {
+	padding: 28px;
+	border: 25px solid red;
+	background: cadetblue;
+}

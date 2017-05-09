@@ -57,16 +57,21 @@ h1 {
 	padding: 15px;
 }
 
+/*.main-content {
+	float: left;
+}
+*/
 .col{
 	float: left;
 	width: 33.33333333333%;
 	padding: 15px;
-	position: relative;
+	/*position: relative;*/
 }
 /*bài transition*/
 .thumb{
 	padding: 4px;
-	border: 1px solid #ddd;
+	/*border: 1px solid #ddd;*/
+	border: 1px solid red;
 	cursor: pointer;
 }
 
